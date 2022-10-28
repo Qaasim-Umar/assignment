@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zuri-form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="container">
+  <div id="main">
+      <img class="img-desktop" src="images/product-desktop.jpg" alt="">
+      <img class="img-mobile" src="images/product-mobile.jpg" alt="">
+      <div class="main-text">
+       
+
+
+          <form id="formid" name="registration-form" method="post">
+            <fieldset>
+
+                <fieldset class="names">
+                    <legend>Names</legend>
+                <label for="full-name">First Name</label>
+                <input type="text" name="name" id="first-name" placeholder="First-Name" required="true" >
+                <label for="full-name">Last Name</label>
+                <input type="text" name="name" id="Last-name" placeholder="Last-Name" required="true" >
+                </fieldset>
+                <label for="phone">Enter your phone number:</label>
+                <input type="tel" id="phone" placeholder="090-12-23-333" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            
+            
+            
+                <label for="favcolor">favorite color:</label>
+                <input type="color" id="favcolor" name="favcolor">
+            
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+            
+                <label for="email-address">Email Address</label>
+                <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="true">
+            
+               
+                  
+            
+                 
+                  <select name="Gender" required="true">
+                    <option value="" selected="" disabled="">Gender</option>
+                      <option value="Ml">Male</option>
+                      <option value="FM">Female</option>
+                  </select>
+                </fieldset>
+                 
+            </form>
+            
+          <button>Submit</button>
+
+      </div>
+  </div>
+ </div>
+<h4 align="center">Have an account already? <a href="login.html"> LOGIN</a></h4>
+
+
+<body>
+     
+</body>
+</html>
